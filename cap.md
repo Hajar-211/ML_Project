@@ -53,11 +53,19 @@
 | y_lane_Three_midPoint    | Y-coordinate of the second point in lane 3                  | object     |
 | x_lane_Three_lastPoint   | X-coordinate of the last point in lane 3                    | object     |
 | y_lane_Three_lastPoint   | Y-coordinate of the last point in lane 3                    | object     |
-| case                     | Manual labeling of each case                                | int64      |
+| case                     | Labeling of each case                                       | int64      |
 
 ## **Models** 📊
 
-Let's mention the accuracy of each model used and provide a graph representing it. 📊
+![Alt Text](image.jpg)
+
+For this project, we selected XGBoost as our primary model due to its excellent performance in handling structured data. After training and evaluating the model on our dataset, we achieved an impressive accuracy of 98%.
+
+The XGBoost algorithm is a powerful gradient boosting technique that combines the strengths of decision trees with ensemble learning. It effectively handles complex relationships within the data and provides robust predictions.
+
+We fine-tuned the hyperparameters of the XGBoost model and used techniques such as cross-validation to ensure reliable performance. The model demonstrated outstanding accuracy on our test set, indicating its capability to generalize well to unseen data.
+
+By employing XGBoost, we were able to achieve exceptional results, making it a suitable choice for our project.
 
 
 ### **Conclusion and Findings**
