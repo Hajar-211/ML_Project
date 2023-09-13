@@ -19,7 +19,10 @@
 - Decision Tree
 - Support Vector Classification 
 - Random Forest 
-- Logistic Regression 
+- Logistic Regression
+- XGboost
+- Naive Bayes 
+- K Nearest neighborhood
 
 ### **Problems**
 - Insufficient training data 
@@ -57,7 +60,7 @@
 
 ## **Models** 📊
 
-![Alt Text](image.jpg)
+![Alt Text](newplot.png)
 
 For this project, we selected XGBoost as our primary model due to its excellent performance in handling structured data. After training and evaluating the model on our dataset, we achieved an impressive accuracy of 98%.
 
